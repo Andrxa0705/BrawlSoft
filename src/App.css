@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+body {
+  background: #0f0a1f;
+  color: #eae6ff;
+}
+
+.container {
+  width: 100%;
+}
+
+.hero {
+  text-align: center;
+  padding: 90px 20px;
+  background: radial-gradient(circle at top, #2a1450, #0f0a1f);
+}
+
+.hero h1 {
+  font-size: 3.2rem;
+  color: #b78cff;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  text-align: center;
+  opacity: 0.75;
+  max-width: 700px;
+  margin: 15px auto 30px;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+button {
+  padding: 12px 18px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+button {
+  background: #7c4dff;
+  color: white;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  background: #9b7bff;
+}
+
+.secondary {
+  background: transparent !important;
+  border: 1px solid #7c4dff;
+  color: #eae6ff;
+}
+
+.secondary:hover {
+  background: rgba(124, 77, 255, 0.15) !important;
+}
+
+section {
+  padding: 70px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #cbb6ff;
+  font-size: 1.8rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(123, 77, 255, 0.2);
+  padding: 20px;
+  border-radius: 14px;
+  transition: 0.3s;
+  backdrop-filter: blur(10px);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: #7c4dff;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #b78cff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 500px;
+  margin: 30px auto 0;
+}
+
+input, textarea, select {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(123, 77, 255, 0.3);
+  background: rgba(255, 255, 255, 0.03);
+  color: white;
+  outline: none;
+}
+
+textarea {
+  min-height: 120px;
+  resize: none;
+}
+
+select {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(123, 77, 255, 0.3);
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  outline: none;
+}
+
+select option {
+  background: #1a0f2e;
+  color: white;
+}
